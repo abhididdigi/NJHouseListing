@@ -2,5 +2,5 @@
 Search for an apartment in NJ
 
 - you need RethinkDB
-- you need Node
-- you need Python
+- you need NodeJS
+- you need Python(2.7.x preferable)
