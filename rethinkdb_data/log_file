@@ -1,0 +1,88 @@
+2016-12-04T23:51:07.270616000 10.205453s notice: Recursively removing directory /Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data/tmp
+2016-12-04T23:51:07.273941000 10.208785s notice: Initializing directory /Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data
+2016-12-04T23:51:07.274096000 10.208932s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data' did not already exist or is empty.)
+2016-12-04T23:51:07.274791000 10.209629s notice: Running rethinkdb 2.1.1 (CLANG 6.1.0 (clang-602.0.53))...
+2016-12-04T23:51:07.285514000 10.220353s notice: Running on Darwin 16.0.0 x86_64
+2016-12-04T23:51:07.285637000 10.220474s notice: Loading data from directory /Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data
+2016-12-04T23:51:07.634065000 10.568901s info: Automatically using cache size of 100 MB
+2016-12-04T23:51:07.634092000 10.568928s warn: Cache size does not leave much memory for server and query overhead (available memory: 687 MB).
+2016-12-04T23:51:07.634117000 10.568953s warn: Cache size is very low and may impact performance.
+2016-12-04T23:51:07.635339000 10.570175s notice: Listening for intracluster connections on port 29015
+2016-12-04T23:51:07.643183000 10.578020s notice: Listening for client driver connections on port 28015
+2016-12-04T23:51:07.644768000 10.579604s notice: Listening for administrative HTTP connections on port 8080
+2016-12-04T23:51:07.644771000 10.579607s notice: Listening on addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-04T23:51:07.644777000 10.579613s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-04T23:51:07.644783000 10.579618s notice: Server ready, "Abhirams_MacBook_Air_local_eyd" 234c7b02-2cfc-4d18-a865-f30aa9130d5d
+2016-12-04T23:51:07.817879000 10.752716s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-12-04T23:54:18.296411000 201.224644s info: Table 14c0b96b-0544-4385-b3ed-2436ba377831: Added replica on this server.
+2016-12-04T23:54:19.611441000 202.539609s info: Table 14c0b96b-0544-4385-b3ed-2436ba377831: Starting a new Raft election for term 1.
+2016-12-04T23:54:19.679492000 202.607661s info: Table 14c0b96b-0544-4385-b3ed-2436ba377831: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-05T00:02:28.991815000 691.902471s notice: Removing file /Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data/14c0b96b-0544-4385-b3ed-2436ba377831
+2016-12-05T00:02:29.072047000 691.982704s info: Table 14c0b96b-0544-4385-b3ed-2436ba377831: Deleted the table.
+2016-12-05T00:02:43.599297000 706.509414s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: Added replica on this server.
+2016-12-05T00:02:44.612048000 707.522097s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: Starting a new Raft election for term 1.
+2016-12-05T00:02:44.674869000 707.584919s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-05T00:05:16.696232000 859.600769s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: Added replica on this server.
+2016-12-05T00:05:18.578314000 861.482783s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: Starting a new Raft election for term 1.
+2016-12-05T00:05:18.649091000 861.553560s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-05T00:05:22.706330000 865.610665s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: Configuration is changing.
+2016-12-05T00:27:44.129711000 2206.985956s notice: Server got SIGINT from pid 6265, uid 501; shutting down...
+2016-12-05T00:27:44.130475000 2206.986720s notice: Shutting down client connections...
+2016-12-05T00:27:44.131216000 2206.987461s notice: All client connections closed.
+2016-12-05T00:27:44.131227000 2206.987471s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-05T00:27:44.145418000 2207.001662s notice: Storage engine shut down.
+2016-12-05T00:28:34.338694000 40.540043s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2016-12-05T00:28:34.353500000 40.554840s notice: Running on Darwin 16.0.0 x86_64
+2016-12-05T00:28:34.353549000 40.554888s notice: Loading data from directory /Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data
+2016-12-05T00:28:34.357927000 40.559266s notice: Migrating cluster metadata to v2.3
+2016-12-05T00:28:34.364796000 40.566135s notice: Migrating file to serializer version 2.2.
+2016-12-05T00:28:34.549485000 40.750823s info: Automatically using cache size of 100 MB
+2016-12-05T00:28:34.549496000 40.750834s warn: Cache size does not leave much memory for server and query overhead (available memory: 550 MB).
+2016-12-05T00:28:34.549502000 40.750840s warn: Cache size is very low and may impact performance.
+2016-12-05T00:28:34.550135000 40.751473s notice: Listening for intracluster connections on port 29015
+2016-12-05T00:28:34.574289000 40.775628s notice: Migrating file to serializer version 2.2.
+2016-12-05T00:28:34.618042000 40.819381s notice: Migrating file to serializer version 2.2.
+2016-12-05T00:28:34.623135000 40.824473s notice: Listening for client driver connections on port 28015
+2016-12-05T00:28:34.623318000 40.824657s notice: Listening for administrative HTTP connections on port 8080
+2016-12-05T00:28:34.623334000 40.824672s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-05T00:28:34.623336000 40.824675s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-05T00:28:34.623338000 40.824677s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-05T00:28:34.623341000 40.824679s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-05T00:28:34.623343000 40.824682s notice: Server ready, "Abhirams_MacBook_Air_local_eyd" 234c7b02-2cfc-4d18-a865-f30aa9130d5d
+2016-12-05T00:28:35.855329000 42.056602s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: Starting a new Raft election for term 2.
+2016-12-05T00:28:35.946036000 42.147310s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: This server is Raft leader for term 2. Latest log index is 3.
+2016-12-05T00:28:36.201771000 42.403045s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: Starting a new Raft election for term 2.
+2016-12-05T00:28:36.297914000 42.499188s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-05T12:55:33.441454000 6004.677099s info: Table 4d2afd39-61a1-4995-a48d-a1a6547f2c09: Starting a new Raft election for term 1.
+2016-12-05T12:55:33.443126000 6004.678766s info: Table 4d2afd39-61a1-4995-a48d-a1a6547f2c09: Added replica on this server.
+2016-12-05T12:55:33.510304000 6004.745944s info: Table 4d2afd39-61a1-4995-a48d-a1a6547f2c09: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-05T17:37:27.574391000 20770.538879s info: Table 5641dea4-f608-43f6-967d-cc5ee08e92fe: Starting a new Raft election for term 1.
+2016-12-05T17:37:27.577419000 20770.541907s info: Table 5641dea4-f608-43f6-967d-cc5ee08e92fe: Added replica on this server.
+2016-12-05T17:37:27.652146000 20770.616634s info: Table 5641dea4-f608-43f6-967d-cc5ee08e92fe: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-05T22:48:04.462012000 35968.734403s notice: Server got SIGINT from pid 6265, uid 501; shutting down...
+2016-12-05T22:48:04.462276000 35968.734662s notice: Shutting down client connections...
+2016-12-05T22:48:04.464701000 35968.737087s notice: All client connections closed.
+2016-12-05T22:48:04.464717000 35968.737102s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-05T22:48:04.940962000 35969.213290s notice: Storage engine shut down.
+2016-12-05T22:48:50.329369000 40.461974s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2016-12-05T22:48:50.340967000 40.473567s notice: Running on Darwin 16.0.0 x86_64
+2016-12-05T22:48:50.341034000 40.473633s notice: Loading data from directory /Users/abhididdigi/PycharmProjects/SearchHouse/rethinkdb_data
+2016-12-05T22:48:50.548315000 40.680858s info: Automatically using cache size of 100 MB
+2016-12-05T22:48:50.548324000 40.680867s warn: Cache size does not leave much memory for server and query overhead (available memory: 422 MB).
+2016-12-05T22:48:50.548329000 40.680872s warn: Cache size is very low and may impact performance.
+2016-12-05T22:48:50.549436000 40.681979s notice: Listening for intracluster connections on port 29015
+2016-12-05T22:48:50.800200000 40.932743s notice: Listening for client driver connections on port 28015
+2016-12-05T22:48:50.801064000 40.933608s notice: Listening for administrative HTTP connections on port 8080
+2016-12-05T22:48:50.801069000 40.933612s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-05T22:48:50.801349000 40.933892s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-05T22:48:50.801355000 40.933897s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, ::1
+2016-12-05T22:48:50.801357000 40.933900s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-05T22:48:50.801360000 40.933903s notice: Server ready, "Abhirams_MacBook_Air_local_eyd" 234c7b02-2cfc-4d18-a865-f30aa9130d5d
+2016-12-05T22:48:51.950067000 42.082553s info: Table 4d2afd39-61a1-4995-a48d-a1a6547f2c09: Starting a new Raft election for term 2.
+2016-12-05T22:48:52.081737000 42.214223s info: Table 4d2afd39-61a1-4995-a48d-a1a6547f2c09: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-05T22:48:52.413873000 42.546359s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: Starting a new Raft election for term 3.
+2016-12-05T22:48:52.522240000 42.654726s info: Table 5d6cf0a1-6038-4fd6-983e-58dc7ba16322: This server is Raft leader for term 3. Latest log index is 5.
+2016-12-05T22:48:52.634827000 42.767313s info: Table 5641dea4-f608-43f6-967d-cc5ee08e92fe: Starting a new Raft election for term 2.
+2016-12-05T22:48:52.701206000 42.833652s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: Starting a new Raft election for term 3.
+2016-12-05T22:48:52.885486000 43.017915s info: Table 5641dea4-f608-43f6-967d-cc5ee08e92fe: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-05T22:48:53.042107000 43.174536s info: Table 5cae4af6-c173-4765-b16b-6b949b1dbdd5: This server is Raft leader for term 3. Latest log index is 7.
