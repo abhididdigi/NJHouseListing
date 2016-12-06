@@ -19,9 +19,7 @@ for document in cursor:
     url = 'https://dev22327.service-now.com/api/now/import/u_import_house_listing'
 
     # Eg. User name="admin", Password="admin" for this code sample.
-    user = 'admin'
-    pwd = 'Abhi@ram3103'
-
+    
     # Set proper headers
     headers = {"Content-Type":"application/json","Accept":"application/json"}
 
