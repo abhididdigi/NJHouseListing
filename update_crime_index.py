@@ -5,7 +5,7 @@ housing_table_name = "houselisting"
 crime_table_data = "crimedata"
 
 
-
+# crime magnitude rating.
 crime_rating = {"Arrest":5,"Arson":5,"Assault":8,"Burglary":10,"Other":3,"Robbery":8,"Shooting":10,"Theft":8,"Vandalism":8}
 
 housing_cursor = r.table(housing_table_name).run(conn);
